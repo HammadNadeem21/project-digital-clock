@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="digital-clock">
+
+        <div class="day">
+            <span id="Day">Friday</span>
+        </div>
+      <div class="time">
+        <!-- Left-Side -->
+        <div class="leftside">
+          <span id="hours"> 00 </span>
+        </div>
+        <!-- Right-Side -->
+        <div class="rightside">
+          <!-- Right-Top -->
+          <div class="righttop">
+            <span id="dots">:</span>
+            <span id="minutes">00</span>
+          </div>
+          <!-- Right-Buttom -->
+          <div class="rightbuttom">
+            <span id="seconds">00</span>
+            <span id="ampm">PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="date">
+        <span id="Date">AUG 13, 2024</span>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
